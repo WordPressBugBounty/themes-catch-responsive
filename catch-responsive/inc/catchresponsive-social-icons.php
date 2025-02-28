@@ -27,18 +27,22 @@ function catchresponsive_get_social_icons(){
 			if ( isset( $options[ $key ] ) && '' != $options[ $key ] ) {
 				$value = $options[ $key ];
 
-				if ( 'email_link' == $key  ) {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr__( 'Email', 'catch-responsive') . '" href="mailto:'. antispambot( sanitize_email( $value ) ) .'"><span class="screen-reader-text">'. __( 'Email', 'catch-responsive') . '</span> </a>';
-				}
-				elseif ( 'skype_link' == $key  ) {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) . '" href="'. esc_attr( $value ) .'"><span class="screen-reader-text">'. esc_attr( $item['label'] ). '</span> </a>';
-				}
-				elseif ( 'phone_link' == $key || 'handset_link' == $key ) {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) . '" href="tel:' . preg_replace( '/\s+/', '', esc_attr( $value ) ) . '"><span class="screen-reader-text">'. esc_attr( $item['label'] ) . '</span> </a>';
-				}
-				else {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) .'" href="'. esc_url( $value ) .'"><span class="screen-reader-text">'. esc_attr( $item['label'] ) .'</span> </a>';
-				}
+					if (
+						'email_link' == $key
+						|| 'website_link' == $key
+						|| 'phone_link' == $key
+						|| 'handset_link' == $key
+						|| 'feed_link' == $key
+						|| 'mobile_link' == $key
+						|| 'cart_link' == $key
+						|| 'cart_link' == $key
+						|| 'cloud_link' == $key
+						|| 'link_link' == $key
+					) {
+						$output .= '<a class="font-awesome fa-solid fa-' . sanitize_key($item['fa_class']) . '" target="_blank" title="' . esc_attr($item['label']) . '" href="' . esc_attr($value) . '"><span class="screen-reader-text">' . esc_attr($item['label']) . '</span> </a>';
+					} else {
+						$output .= '<a class="font-awesome fa-brands fa-' . sanitize_key($item['fa_class']) . '" target="_blank" title="' . esc_attr($item['label']) . '" href="' . esc_url($value) . '"><span class="screen-reader-text">' . esc_attr($item['label']) . '</span> </a>';
+					}
 			}
 		}
 		//Pre defined Social Icons Link End

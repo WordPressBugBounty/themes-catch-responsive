@@ -339,8 +339,8 @@ function catchresponsive_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	//For genericons
-	wp_enqueue_style( 'genericons', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'css/genericons/genericons.css', false, '3.4.1' );
+	// Font Awesome
+	wp_enqueue_style('font-awesome', trailingslashit(esc_url(get_template_directory_uri())) . 'css/font-awesome/css/all.min.css', array(), '6.7.2', 'all');
 
 	/**
 	 * Enqueue the styles for the current color scheme for catchresponsive.
@@ -378,7 +378,7 @@ function catchresponsive_scripts() {
 		wp_register_script( 'jquery-cycle2', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'js/jquery.cycle/jquery.cycle2.min.js', array( 'jquery' ), '2.1.5', true );
 
 		wp_enqueue_script( 'jquery-cycle2' );
-	
+
 	}
 
 	/**
@@ -1467,7 +1467,7 @@ if ( ! function_exists( 'catchresponsive_scrollup' ) ) {
 
 			//site stats, analytics header code
 			if ( ! $options['disable_scrollup'] ) {
-				$catchresponsive_scrollup =  '<a href="#masthead" id="scrollup" class="genericon"><span class="screen-reader-text">' . __( 'Scroll Up', 'catch-responsive' ) . '</span></a>' ;
+				$catchresponsive_scrollup =  '<a href="#masthead" id="scrollup" class="font-awesome fa-solid"><span class="screen-reader-text">' . __( 'Scroll Up', 'catch-responsive' ) . '</span></a>' ;
 			}
 
 			set_transient( 'catchresponsive_scrollup', $catchresponsive_scrollup, 86940 );

@@ -97,7 +97,7 @@ function catchresponsive_get_default_theme_options() {
 		'reset_all_settings'								=> 0,
 
 		//Fitvid option
-		'enable_fitvids'						  			=> 0,	
+		'enable_fitvids'						  			=> 0,
 	);
 
 	return apply_filters( 'catchresponsive_default_theme_options', $default_theme_options );
@@ -322,137 +322,137 @@ function catchresponsive_single_post_image_layout_options() {
 function catchresponsive_get_social_icons_list() {
 	$catchresponsive_social_icons_list = array(
 		'facebook_link'		=> array(
-			'genericon_class' 	=> 'facebook-alt',
-			'label' 			=> esc_html__( 'Facebook', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'facebook',
+			'label' 			=> esc_html__('Facebook', 'catch-responsive')
+		),
 		'twitter_link'		=> array(
-			'genericon_class' 	=> 'twitter',
-			'label' 			=> esc_html__( 'Twitter', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'x-twitter',
+			'label' 			=> esc_html__('Twitter', 'catch-responsive')
+		),
 		'googleplus_link'	=> array(
-			'genericon_class' 	=> 'googleplus-alt',
-			'label' 			=> esc_html__( 'Googleplus', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'google-plus',
+			'label' 			=> esc_html__('Googleplus', 'catch-responsive')
+		),
 		'email_link'		=> array(
-			'genericon_class' 	=> 'mail',
-			'label' 			=> esc_html__( 'Email', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'envelope',
+			'label' 			=> esc_html__('Email', 'catch-responsive')
+		),
 		'feed_link'			=> array(
-			'genericon_class' 	=> 'feed',
-			'label' 			=> esc_html__( 'Feed', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'feed',
+			'label' 			=> esc_html__('Feed', 'catch-responsive')
+		),
 		'wordpress_link'	=> array(
-			'genericon_class' 	=> 'wordpress',
-			'label' 			=> esc_html__( 'WordPress', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'wordpress',
+			'label' 			=> esc_html__('WordPress', 'catch-responsive')
+		),
 		'github_link'		=> array(
-			'genericon_class' 	=> 'github',
-			'label' 			=> esc_html__( 'GitHub', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'github',
+			'label' 			=> esc_html__('GitHub', 'catch-responsive')
+		),
 		'linkedin_link'		=> array(
-			'genericon_class' 	=> 'linkedin',
-			'label' 			=> esc_html__( 'LinkedIn', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'linkedin',
+			'label' 			=> esc_html__('LinkedIn', 'catch-responsive')
+		),
 		'pinterest_link'	=> array(
-			'genericon_class' 	=> 'pinterest',
-			'label' 			=> esc_html__( 'Pinterest', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'pinterest',
+			'label' 			=> esc_html__('Pinterest', 'catch-responsive')
+		),
 		'flickr_link'		=> array(
-			'genericon_class' 	=> 'flickr',
-			'label' 			=> esc_html__( 'Flickr', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'flickr',
+			'label' 			=> esc_html__('Flickr', 'catch-responsive')
+		),
 		'vimeo_link'		=> array(
-			'genericon_class' 	=> 'vimeo',
-			'label' 			=> esc_html__( 'Vimeo', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'vimeo',
+			'label' 			=> esc_html__('Vimeo', 'catch-responsive')
+		),
 		'youtube_link'		=> array(
-			'genericon_class' 	=> 'youtube',
-			'label' 			=> esc_html__( 'YouTube', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'youtube',
+			'label' 			=> esc_html__('YouTube', 'catch-responsive')
+		),
 		'tumblr_link'		=> array(
-			'genericon_class' 	=> 'tumblr',
-			'label' 			=> esc_html__( 'Tumblr', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'tumblr',
+			'label' 			=> esc_html__('Tumblr', 'catch-responsive')
+		),
 		'instagram_link'	=> array(
-			'genericon_class' 	=> 'instagram',
-			'label' 			=> esc_html__( 'Instagram', 'catch-responsive' )
-			),
-		'polldaddy_link'	=> array(
-			'genericon_class' 	=> 'polldaddy',
-			'label' 			=> esc_html__( 'PollDaddy', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'instagram',
+			'label' 			=> esc_html__('Instagram', 'catch-responsive')
+		),
 		'codepen_link'		=> array(
-			'genericon_class' 	=> 'codepen',
-			'label' 			=> esc_html__( 'CodePen', 'catch-responsive' )
-			),
-		'path_link'			=> array(
-			'genericon_class' 	=> 'path',
-			'label' 			=> esc_html__( 'Path', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'codepen',
+			'label' 			=> esc_html__('CodePen', 'catch-responsive')
+		),
 		'dribbble_link'		=> array(
-			'genericon_class' 	=> 'dribbble',
-			'label' 			=> esc_html__( 'Dribbble', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'dribbble',
+			'label' 			=> esc_html__('Dribbble', 'catch-responsive')
+		),
 		'skype_link'		=> array(
-			'genericon_class' 	=> 'skype',
-			'label' 			=> esc_html__( 'Skype', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'skype',
+			'label' 			=> esc_html__('Skype', 'catch-responsive')
+		),
 		'digg_link'			=> array(
-			'genericon_class' 	=> 'digg',
-			'label' 			=> esc_html__( 'Digg', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'digg',
+			'label' 			=> esc_html__('Digg', 'catch-responsive')
+		),
 		'reddit_link'		=> array(
-			'genericon_class' 	=> 'reddit',
-			'label' 			=> esc_html__( 'Reddit', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'reddit',
+			'label' 			=> esc_html__('Reddit', 'catch-responsive')
+		),
 		'stumbleupon_link'	=> array(
-			'genericon_class' 	=> 'stumbleupon',
-			'label' 			=> esc_html__( 'Stumbleupon', 'catch-responsive' )
-			),
+			'fa_class' 	=> 'stumbleupon',
+			'label' 			=> esc_html__('Stumbleupon', 'catch-responsive')
+		),
 		'pocket_link'		=> array(
-			'genericon_class' 	=> 'pocket',
-			'label' 			=> esc_html__( 'Pocket', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'get-pocket',
+			'label' 			=> esc_html__('Pocket', 'catch-responsive'),
+		),
 		'dropbox_link'		=> array(
-			'genericon_class' 	=> 'dropbox',
-			'label' 			=> esc_html__( 'DropBox', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'dropbox',
+			'label' 			=> esc_html__('DropBox', 'catch-responsive'),
+		),
 		'spotify_link'		=> array(
-			'genericon_class' 	=> 'spotify',
-			'label' 			=> esc_html__( 'Spotify', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'spotify',
+			'label' 			=> esc_html__('Spotify', 'catch-responsive'),
+		),
 		'foursquare_link'	=> array(
-			'genericon_class' 	=> 'foursquare',
-			'label' 			=> esc_html__( 'Foursquare', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'foursquare',
+			'label' 			=> esc_html__('Foursquare', 'catch-responsive'),
+		),
 		'twitch_link'		=> array(
-			'genericon_class' 	=> 'twitch',
-			'label' 			=> esc_html__( 'Twitch', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'twitch',
+			'label' 			=> esc_html__('Twitch', 'catch-responsive'),
+		),
 		'website_link'		=> array(
-			'genericon_class' 	=> 'website',
-			'label' 			=> esc_html__( 'Website', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'globe',
+			'label' 			=> esc_html__('Website', 'catch-responsive'),
+		),
 		'phone_link'		=> array(
-			'genericon_class' 	=> 'phone',
-			'label' 			=> esc_html__( 'Phone', 'catch-responsive' ),
-			),
-		'handset_link'		=> array(
-			'genericon_class' 	=> 'handset',
-			'label' 			=> esc_html__( 'Handset', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'phone',
+			'label' 			=> esc_html__('Phone', 'catch-responsive'),
+		),
+		'mobile_link'		=> array(
+			'fa_class' 	=> 'mobile-phone',
+			'label' 	=> esc_html__('Mobile', 'catch-responsive'),
+		),
 		'cart_link'			=> array(
-			'genericon_class' 	=> 'cart',
-			'label' 			=> esc_html__( 'Cart', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'shopping-cart',
+			'label' 	=> esc_html__('Cart', 'catch-responsive'),
+		),
 		'cloud_link'		=> array(
-			'genericon_class' 	=> 'cloud',
-			'label' 			=> esc_html__( 'Cloud', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'cloud',
+			'label' 			=> esc_html__('Cloud', 'catch-responsive'),
+		),
 		'link_link'		=> array(
-			'genericon_class' 	=> 'link',
-			'label' 			=> esc_html__( 'Link', 'catch-responsive' ),
-			),
+			'fa_class' 	=> 'link',
+			'label' 			=> esc_html__('Link', 'catch-responsive'),
+		),
+		'bluesky_link'		=> array(
+			'fa_class' 	=> 'bluesky',
+			'label' 			=> esc_html__('Bluesky', 'catch-responsive'),
+		),
+		'tiktok_link'		=> array(
+			'fa_class' 	=> 'tiktok',
+			'label' 			=> esc_html__('Tiktok', 'catch-responsive'),
+		)
 	);
 
 	return apply_filters( 'catchresponsive_social_icons_list', $catchresponsive_social_icons_list );
@@ -562,7 +562,7 @@ function catchresponsive_get_content() {
 	if ( function_exists( 'get_the_privacy_policy_link' ) ) {
 		$catchresponsive_content['left'] = sprintf( _x( 'Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s', '1: Year, 2: Site Title with home URL 3: Privacy Policy Link', 'catch-responsive' ), esc_attr( date_i18n( __( 'Y', 'catch-responsive' ) ) ), '<a href="'. esc_url( home_url( '/' ) ) .'">'. esc_attr( get_bloginfo( 'name', 'display' ) ) . '</a>', get_the_privacy_policy_link() );
 	}
-	
+
 	$catchresponsive_content['right']	= esc_attr( $theme_data->get( 'Name') ) . '&nbsp;' . __( 'by', 'catch-responsive' ). '&nbsp;<a target="_blank" href="'. esc_url( $theme_data->get( 'AuthorURI' ) ) .'">'. esc_attr( $theme_data->get( 'Author' ) ) .'</a>';
 
 	return apply_filters( 'catchresponsive_get_content', $catchresponsive_content );

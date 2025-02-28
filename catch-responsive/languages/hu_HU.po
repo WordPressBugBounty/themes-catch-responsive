@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Responsive\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-09-18 22:24+0545\n"
-"PO-Revision-Date: 2024-09-18 22:24+0545\n"
+"POT-Creation-Date: 2025-02-28 22:21+0545\n"
+"PO-Revision-Date: 2025-02-28 22:21+0545\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: hu_HU\n"
@@ -516,7 +516,6 @@ msgid "Googleplus"
 msgstr "Googleplus"
 
 #: ../inc/catchresponsive-default-options.php:338
-#: ../inc/catchresponsive-social-icons.php:31
 msgid "Email"
 msgstr "E-mail cím"
 
@@ -562,80 +561,80 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: ../inc/catchresponsive-default-options.php:382
-msgid "PollDaddy"
-msgstr "PollDaddy"
-
-#: ../inc/catchresponsive-default-options.php:386
 msgid "CodePen"
 msgstr "CodePen"
 
-#: ../inc/catchresponsive-default-options.php:390
-msgid "Path"
-msgstr "Path"
-
-#: ../inc/catchresponsive-default-options.php:394
+#: ../inc/catchresponsive-default-options.php:386
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: ../inc/catchresponsive-default-options.php:398
+#: ../inc/catchresponsive-default-options.php:390
 msgid "Skype"
 msgstr "Skype"
 
-#: ../inc/catchresponsive-default-options.php:402
+#: ../inc/catchresponsive-default-options.php:394
 msgid "Digg"
 msgstr "Digg"
 
-#: ../inc/catchresponsive-default-options.php:406
+#: ../inc/catchresponsive-default-options.php:398
 msgid "Reddit"
 msgstr "Reddit"
 
-#: ../inc/catchresponsive-default-options.php:410
+#: ../inc/catchresponsive-default-options.php:402
 msgid "Stumbleupon"
 msgstr "Stumbleupon"
 
-#: ../inc/catchresponsive-default-options.php:414
+#: ../inc/catchresponsive-default-options.php:406
 msgid "Pocket"
 msgstr "Pocket"
 
-#: ../inc/catchresponsive-default-options.php:418
+#: ../inc/catchresponsive-default-options.php:410
 msgid "DropBox"
 msgstr "DropBox"
 
-#: ../inc/catchresponsive-default-options.php:422
+#: ../inc/catchresponsive-default-options.php:414
 msgid "Spotify"
 msgstr "Spotify"
 
-#: ../inc/catchresponsive-default-options.php:426
+#: ../inc/catchresponsive-default-options.php:418
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: ../inc/catchresponsive-default-options.php:430
+#: ../inc/catchresponsive-default-options.php:422
 msgid "Twitch"
 msgstr "Twitch"
 
-#: ../inc/catchresponsive-default-options.php:434
+#: ../inc/catchresponsive-default-options.php:426
 msgid "Website"
 msgstr "Website"
 
-#: ../inc/catchresponsive-default-options.php:438
+#: ../inc/catchresponsive-default-options.php:430
 msgid "Phone"
 msgstr "Phone"
 
-#: ../inc/catchresponsive-default-options.php:442
-msgid "Handset"
-msgstr "Handset"
+#: ../inc/catchresponsive-default-options.php:434
+msgid "Mobile"
+msgstr ""
 
-#: ../inc/catchresponsive-default-options.php:446
+#: ../inc/catchresponsive-default-options.php:438
 msgid "Cart"
 msgstr "Cart"
 
-#: ../inc/catchresponsive-default-options.php:450
+#: ../inc/catchresponsive-default-options.php:442
 msgid "Cloud"
 msgstr "Cloud"
 
-#: ../inc/catchresponsive-default-options.php:454
+#: ../inc/catchresponsive-default-options.php:446
 msgid "Link"
 msgstr "Link"
+
+#: ../inc/catchresponsive-default-options.php:450
+msgid "Bluesky"
+msgstr ""
+
+#: ../inc/catchresponsive-default-options.php:454
+msgid "Tiktok"
+msgstr ""
 
 #: ../inc/catchresponsive-default-options.php:472
 #: ../inc/catchresponsive-default-options.php:503
@@ -1267,6 +1266,15 @@ msgstr ""
 #: ../sidebar.php:57
 msgid "Archives"
 msgstr "Archívum"
+
+#~ msgid "PollDaddy"
+#~ msgstr "PollDaddy"
+
+#~ msgid "Path"
+#~ msgstr "Path"
+
+#~ msgid "Handset"
+#~ msgstr "Handset"
 
 #~ msgid "Fade"
 #~ msgstr "Elhalványítás"

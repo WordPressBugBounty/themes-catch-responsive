@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, front-page-post-form, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, footer-widgets, blog, education, portfolio
 Requires at least: 5.6
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -147,8 +147,15 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
+= 3.0 (Released: February 28, 2025) =
+* Added: Bluesky and Tiktok social icon
+* Replaced: Genericons library to Font Awesome
+* Updated: Twitter x icon
+* Updated: WordPress 6.7 ready
+
 = 2.9 (Released: September 18, 2024) =
 * Bug Fixed: Double scrollbar in editor
+* Bug Fixed: Escaping author display name
 * Updated: WordPress 6.6 ready
 
 = 2.8.7 (Released: December 13, 2023) ==
@@ -437,9 +444,11 @@ Catch Responsive is distributed under the terms of the GNU GPL
     6. All other images are self shot image by (CatchThemes.com)
 
 * Font Icons
-	Genericons by Automattic, Inc.
-  	Genericons is Licensed under the GPL, version 2 or later
-	http://genericons.com/
+    Font Awesome Free is free, open source, and GPL friendly.
+    Copyright (c) 2024 Fonticons, Inc. (https://fontawesome.com)
+    with Reserved Font Name: "Font Awesome".
+    Fonts: SIL OFL 1.1 License
+    https://fontawesome.com
 
 * JS Files
     HTML5-Shiv is Licensed under the MIT and GPL licenses
