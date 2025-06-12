@@ -1,11 +1,11 @@
-# Copyright (C) 2012-2022 Catch Themes
+# Copyright (C) 2012-2025 Catch Themes
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: Catch Responsive\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-02-28 22:21+0545\n"
-"PO-Revision-Date: 2025-02-28 22:21+0545\n"
+"POT-Creation-Date: 2025-06-12 14:34+0545\n"
+"PO-Revision-Date: 2025-06-12 14:34+0545\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: hu_HU\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;"
-"_nx:1,2,4c;esc_html__;esc_attr_x:1,2c\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;_nx:1,2,4c;esc_html__;esc_attr_x:1,2c\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-Bookmarks: -1,84,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SearchPath-0: ..\n"
@@ -335,8 +335,8 @@ msgstr "Catch Responsive is a Premium Responsive WordPress Theme"
 
 #: ../inc/catchresponsive-default-options.php:64
 msgid ""
-"This is promotion headline. You can edit this from Appearance -> Customize -"
-"> Theme Options -> Promotion Headline Options"
+"This is promotion headline. You can edit this from Appearance -> Customize "
+"-> Theme Options -> Promotion Headline Options"
 msgstr ""
 "Ez egy promóciós főcím. Szerkeszthető a Megjelenés -> Testreszabás -> Téma "
 "beállítások -> Promotion Headline Options menüpontban"
@@ -369,17 +369,17 @@ msgid "Dark"
 msgstr "Sötét"
 
 #: ../inc/catchresponsive-default-options.php:129
-#: ../inc/catchresponsive-default-options.php:477
+#: ../inc/catchresponsive-default-options.php:481
 msgid "Primary Sidebar, Content"
 msgstr "Elsődleges oldalsáv, Tartalom"
 
 #: ../inc/catchresponsive-default-options.php:130
-#: ../inc/catchresponsive-default-options.php:482
+#: ../inc/catchresponsive-default-options.php:486
 msgid "Content, Primary Sidebar"
 msgstr "Tartalom, Elsődleges oldalsáv"
 
 #: ../inc/catchresponsive-default-options.php:131
-#: ../inc/catchresponsive-default-options.php:487
+#: ../inc/catchresponsive-default-options.php:491
 msgid "No Sidebar ( Content Width )"
 msgstr "Nincs oldalsáv (teljes szélességű tartalom)"
 
@@ -425,7 +425,7 @@ msgid "Disabled"
 msgstr "Letiltva"
 
 #: ../inc/catchresponsive-default-options.php:179
-#: ../inc/catchresponsive-default-options.php:540
+#: ../inc/catchresponsive-default-options.php:544
 msgid "Full Image"
 msgstr "Teljes kép"
 
@@ -636,29 +636,33 @@ msgstr ""
 msgid "Tiktok"
 msgstr ""
 
-#: ../inc/catchresponsive-default-options.php:472
-#: ../inc/catchresponsive-default-options.php:503
-#: ../inc/catchresponsive-default-options.php:530
+#: ../inc/catchresponsive-default-options.php:458
+msgid "Threads"
+msgstr ""
+
+#: ../inc/catchresponsive-default-options.php:476
+#: ../inc/catchresponsive-default-options.php:507
+#: ../inc/catchresponsive-default-options.php:534
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: ../inc/catchresponsive-default-options.php:508
+#: ../inc/catchresponsive-default-options.php:512
 msgid "Enable"
 msgstr "Bekapcsolás"
 
-#: ../inc/catchresponsive-default-options.php:513
+#: ../inc/catchresponsive-default-options.php:517
 msgid "Disable"
 msgstr "Kikapcsolás"
 
-#: ../inc/catchresponsive-default-options.php:535
+#: ../inc/catchresponsive-default-options.php:539
 msgid "Featured Image"
 msgstr "Kiemelt kép"
 
-#: ../inc/catchresponsive-default-options.php:545
+#: ../inc/catchresponsive-default-options.php:549
 msgid "Disable Image"
 msgstr "Kép kikapcsolása"
 
-#: ../inc/catchresponsive-default-options.php:560
+#: ../inc/catchresponsive-default-options.php:564
 #, fuzzy, php-format
 #| msgctxt "1: Year, 2: Site Title with home URL"
 #| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
@@ -666,15 +670,15 @@ msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link"
 msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
 msgstr "Copyright &copy; %1s. %2s Minden jog fenntartva."
 
-#: ../inc/catchresponsive-default-options.php:560
-#: ../inc/catchresponsive-default-options.php:563
+#: ../inc/catchresponsive-default-options.php:564
+#: ../inc/catchresponsive-default-options.php:567
 #, fuzzy
 #| msgctxt "yearly archives date format"
 #| msgid "Y"
 msgid "Y"
 msgstr "Y"
 
-#: ../inc/catchresponsive-default-options.php:563
+#: ../inc/catchresponsive-default-options.php:567
 #, fuzzy, php-format
 #| msgctxt "1: Year, 2: Site Title with home URL"
 #| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
@@ -682,7 +686,7 @@ msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link"
 msgid "Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s"
 msgstr "Copyright &copy; %1s. %2s Minden jog fenntartva."
 
-#: ../inc/catchresponsive-default-options.php:566
+#: ../inc/catchresponsive-default-options.php:570
 msgid "by"
 msgstr "írta:"
 

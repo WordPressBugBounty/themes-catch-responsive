@@ -1,8 +1,8 @@
 === Catch Responsive ===
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, front-page-post-form, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, footer-widgets, blog, education, portfolio
-Requires at least: 5.6
-Tested up to: 6.7
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -114,6 +114,9 @@ Available icons:
 * Vimeo
 * WordPress
 * YouTube
+* Bluesky
+* Tiktok
+* Threads
 
 Skype Link:
 Skype link can have several formats which are documented below:
@@ -146,6 +149,10 @@ For detail instructions, check out theme instructions page at https://catchtheme
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 3.1 (Released: June 12, 2025) =
+* Added: Threads social icon
+* Updated: WordPress 6.8 ready
 
 = 3.0 (Released: February 28, 2025) =
 * Added: Bluesky and Tiktok social icon
@@ -428,7 +435,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Catch Responsive WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Catch Responsive WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Catch Responsive is distributed under the terms of the GNU GPL
 
 == Resources ==

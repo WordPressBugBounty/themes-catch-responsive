@@ -452,6 +452,10 @@ function catchresponsive_get_social_icons_list() {
 		'tiktok_link'		=> array(
 			'fa_class' 	=> 'tiktok',
 			'label' 			=> esc_html__('Tiktok', 'catch-responsive'),
+		),
+		'threads_link'		=> array(
+			'fa_class' 	=> 'threads',
+			'label' 			=> esc_html__('Threads', 'catch-responsive'),
 		)
 	);
 
