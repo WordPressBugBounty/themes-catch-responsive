@@ -150,6 +150,9 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
+= 3.1.1 (Released: June 16, 2025) =
+* Bug Fixed: Email and Mobile link issue
+
 = 3.1 (Released: June 12, 2025) =
 * Added: Threads social icon
 * Updated: WordPress 6.8 ready

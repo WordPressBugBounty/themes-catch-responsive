@@ -45,13 +45,13 @@
 			) );
 		}
 		else {
-			if ( 'email_link' == $key ){
+			if ( 'email_link' == $key ) {
 				$wp_customize->add_setting( 'catchresponsive_theme_options['. $key .']', array(
 						'capability'		=> 'edit_theme_options',
 						'sanitize_callback' => 'sanitize_email',
 					) );
 			}
-			elseif ( 'handset_link' == $key || 'phone_link' == $key ){
+			elseif ( 'handset_link' == $key || 'phone_link' == $key || 'mobile_link' == $key ) {
 				$wp_customize->add_setting( 'catchresponsive_theme_options['. $key .']', array(
 						'capability'		=> 'edit_theme_options',
 						'sanitize_callback' => 'sanitize_text_field',
