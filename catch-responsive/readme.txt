@@ -111,6 +111,7 @@ Available icons:
 * Tumblr
 * Twitch
 * Twitter
+* X Twitter
 * Vimeo
 * WordPress
 * YouTube
@@ -149,6 +150,9 @@ For detail instructions, check out theme instructions page at https://catchtheme
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 3.1.2 (Released: July 06, 2025) =
+* Updated: Twitter and X Twitter icons separated
 
 = 3.1.1 (Released: June 16, 2025) =
 * Bug Fixed: Email and Mobile link issue

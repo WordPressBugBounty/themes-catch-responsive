@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Responsive\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-06-16 14:35+0545\n"
-"PO-Revision-Date: 2025-06-16 14:35+0545\n"
+"POT-Creation-Date: 2025-07-06 13:57+0545\n"
+"PO-Revision-Date: 2025-07-06 13:57+0545\n"
 "Last-Translator: Kurt <catchme@vindu.dk>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: da_DK\n"
@@ -371,17 +371,17 @@ msgid "Dark"
 msgstr "Mørk"
 
 #: ../inc/catchresponsive-default-options.php:129
-#: ../inc/catchresponsive-default-options.php:481
+#: ../inc/catchresponsive-default-options.php:485
 msgid "Primary Sidebar, Content"
 msgstr "Primære Sidebar, Indhold"
 
 #: ../inc/catchresponsive-default-options.php:130
-#: ../inc/catchresponsive-default-options.php:486
+#: ../inc/catchresponsive-default-options.php:490
 msgid "Content, Primary Sidebar"
 msgstr "Indhold, Primære sidebar"
 
 #: ../inc/catchresponsive-default-options.php:131
-#: ../inc/catchresponsive-default-options.php:491
+#: ../inc/catchresponsive-default-options.php:495
 msgid "No Sidebar ( Content Width )"
 msgstr "Ingen sidebar (indholds bredde)"
 
@@ -427,7 +427,7 @@ msgid "Disabled"
 msgstr "Deaktiveret"
 
 #: ../inc/catchresponsive-default-options.php:179
-#: ../inc/catchresponsive-default-options.php:544
+#: ../inc/catchresponsive-default-options.php:548
 msgid "Full Image"
 msgstr "Fuldt billede"
 
@@ -514,157 +514,163 @@ msgid "Twitter"
 msgstr "Twitter"
 
 #: ../inc/catchresponsive-default-options.php:334
+#, fuzzy
+#| msgid "Twitter"
+msgid "X Twitter"
+msgstr "Twitter"
+
+#: ../inc/catchresponsive-default-options.php:338
 msgid "Googleplus"
 msgstr "Googleplus"
 
-#: ../inc/catchresponsive-default-options.php:338
+#: ../inc/catchresponsive-default-options.php:342
 msgid "Email"
 msgstr "Email"
 
-#: ../inc/catchresponsive-default-options.php:342
+#: ../inc/catchresponsive-default-options.php:346
 msgid "Feed"
 msgstr "Feed"
 
-#: ../inc/catchresponsive-default-options.php:346
+#: ../inc/catchresponsive-default-options.php:350
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../inc/catchresponsive-default-options.php:350
+#: ../inc/catchresponsive-default-options.php:354
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../inc/catchresponsive-default-options.php:354
+#: ../inc/catchresponsive-default-options.php:358
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: ../inc/catchresponsive-default-options.php:358
+#: ../inc/catchresponsive-default-options.php:362
 #: ../inc/customizer-includes/catchresponsive-customizer-custom-controls.php:82
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: ../inc/catchresponsive-default-options.php:362
+#: ../inc/catchresponsive-default-options.php:366
 msgid "Flickr"
 msgstr "Flickr"
 
-#: ../inc/catchresponsive-default-options.php:366
+#: ../inc/catchresponsive-default-options.php:370
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: ../inc/catchresponsive-default-options.php:370
+#: ../inc/catchresponsive-default-options.php:374
 msgid "YouTube"
 msgstr "YouTube"
 
-#: ../inc/catchresponsive-default-options.php:374
+#: ../inc/catchresponsive-default-options.php:378
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: ../inc/catchresponsive-default-options.php:378
+#: ../inc/catchresponsive-default-options.php:382
 msgid "Instagram"
 msgstr "Instagram"
 
-#: ../inc/catchresponsive-default-options.php:382
+#: ../inc/catchresponsive-default-options.php:386
 msgid "CodePen"
 msgstr "CodePen"
 
-#: ../inc/catchresponsive-default-options.php:386
+#: ../inc/catchresponsive-default-options.php:390
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: ../inc/catchresponsive-default-options.php:390
+#: ../inc/catchresponsive-default-options.php:394
 msgid "Skype"
 msgstr "Skype"
 
-#: ../inc/catchresponsive-default-options.php:394
+#: ../inc/catchresponsive-default-options.php:398
 msgid "Digg"
 msgstr "Digg"
 
-#: ../inc/catchresponsive-default-options.php:398
+#: ../inc/catchresponsive-default-options.php:402
 msgid "Reddit"
 msgstr "Reddit"
 
-#: ../inc/catchresponsive-default-options.php:402
+#: ../inc/catchresponsive-default-options.php:406
 msgid "Stumbleupon"
 msgstr "Stumbleupon"
 
-#: ../inc/catchresponsive-default-options.php:406
+#: ../inc/catchresponsive-default-options.php:410
 msgid "Pocket"
 msgstr "Pocket"
 
-#: ../inc/catchresponsive-default-options.php:410
+#: ../inc/catchresponsive-default-options.php:414
 msgid "DropBox"
 msgstr "DropBox"
 
-#: ../inc/catchresponsive-default-options.php:414
+#: ../inc/catchresponsive-default-options.php:418
 msgid "Spotify"
 msgstr "Spotify"
 
-#: ../inc/catchresponsive-default-options.php:418
+#: ../inc/catchresponsive-default-options.php:422
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: ../inc/catchresponsive-default-options.php:422
+#: ../inc/catchresponsive-default-options.php:426
 msgid "Twitch"
 msgstr "Twitch"
 
-#: ../inc/catchresponsive-default-options.php:426
+#: ../inc/catchresponsive-default-options.php:430
 msgid "Website"
 msgstr "Website"
 
-#: ../inc/catchresponsive-default-options.php:430
+#: ../inc/catchresponsive-default-options.php:434
 msgid "Phone"
 msgstr "Tlf."
 
-#: ../inc/catchresponsive-default-options.php:434
+#: ../inc/catchresponsive-default-options.php:438
 msgid "Mobile"
 msgstr ""
 
-#: ../inc/catchresponsive-default-options.php:438
+#: ../inc/catchresponsive-default-options.php:442
 msgid "Cart"
 msgstr "Kurv"
 
-#: ../inc/catchresponsive-default-options.php:442
+#: ../inc/catchresponsive-default-options.php:446
 msgid "Cloud"
 msgstr "Cloud"
 
-#: ../inc/catchresponsive-default-options.php:446
+#: ../inc/catchresponsive-default-options.php:450
 msgid "Link"
 msgstr "Link"
 
-#: ../inc/catchresponsive-default-options.php:450
+#: ../inc/catchresponsive-default-options.php:454
 msgid "Bluesky"
 msgstr ""
 
-#: ../inc/catchresponsive-default-options.php:454
+#: ../inc/catchresponsive-default-options.php:458
 msgid "Tiktok"
 msgstr ""
 
-#: ../inc/catchresponsive-default-options.php:458
+#: ../inc/catchresponsive-default-options.php:462
 msgid "Threads"
 msgstr ""
 
-#: ../inc/catchresponsive-default-options.php:476
-#: ../inc/catchresponsive-default-options.php:507
-#: ../inc/catchresponsive-default-options.php:534
+#: ../inc/catchresponsive-default-options.php:480
+#: ../inc/catchresponsive-default-options.php:511
+#: ../inc/catchresponsive-default-options.php:538
 msgid "Default"
 msgstr "Standard"
 
-#: ../inc/catchresponsive-default-options.php:512
+#: ../inc/catchresponsive-default-options.php:516
 msgid "Enable"
 msgstr "Aktiver"
 
-#: ../inc/catchresponsive-default-options.php:517
+#: ../inc/catchresponsive-default-options.php:521
 msgid "Disable"
 msgstr "Deaktivér"
 
-#: ../inc/catchresponsive-default-options.php:539
+#: ../inc/catchresponsive-default-options.php:543
 msgid "Featured Image"
 msgstr "Indlæggets thumbnail "
 
-#: ../inc/catchresponsive-default-options.php:549
+#: ../inc/catchresponsive-default-options.php:553
 msgid "Disable Image"
 msgstr "Deaktiver billede"
 
-#: ../inc/catchresponsive-default-options.php:564
+#: ../inc/catchresponsive-default-options.php:568
 #, fuzzy, php-format
 #| msgctxt "1: Year, 2: Site Title with home URL"
 #| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
@@ -672,15 +678,15 @@ msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link"
 msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
 msgstr "Copyright &copy; %1$s %2$s. All Rights Reserved."
 
-#: ../inc/catchresponsive-default-options.php:564
-#: ../inc/catchresponsive-default-options.php:567
+#: ../inc/catchresponsive-default-options.php:568
+#: ../inc/catchresponsive-default-options.php:571
 #, fuzzy
 #| msgctxt "yearly archives date format"
 #| msgid "Y"
 msgid "Y"
 msgstr "Y"
 
-#: ../inc/catchresponsive-default-options.php:567
+#: ../inc/catchresponsive-default-options.php:571
 #, fuzzy, php-format
 #| msgctxt "1: Year, 2: Site Title with home URL"
 #| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
@@ -688,7 +694,7 @@ msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link"
 msgid "Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s"
 msgstr "Copyright &copy; %1$s %2$s. All Rights Reserved."
 
-#: ../inc/catchresponsive-default-options.php:570
+#: ../inc/catchresponsive-default-options.php:574
 msgid "by"
 msgstr "af"
 

@@ -326,8 +326,12 @@ function catchresponsive_get_social_icons_list() {
 			'label' 			=> esc_html__('Facebook', 'catch-responsive')
 		),
 		'twitter_link'		=> array(
-			'fa_class' 	=> 'x-twitter',
+			'fa_class' 	=> 'twitter',
 			'label' 			=> esc_html__('Twitter', 'catch-responsive')
+		),
+		'x_link'		=> array(
+			'fa_class' 	=> 'x-twitter',
+			'label' 			=> esc_html__('X Twitter', 'catch-responsive')
 		),
 		'googleplus_link'	=> array(
 			'fa_class' 	=> 'google-plus',
