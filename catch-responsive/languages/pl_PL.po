@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Responsive\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-07-06 13:57+0545\n"
-"PO-Revision-Date: 2025-07-06 13:57+0545\n"
+"POT-Creation-Date: 2025-12-12 15:34+0545\n"
+"PO-Revision-Date: 2025-12-12 15:34+0545\n"
 "Last-Translator: \n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: pl_PL\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: "
 "__;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;_nx:1,2,4c;esc_html__;esc_attr_x:1,2c\n"
@@ -99,8 +99,8 @@ msgstr ""
 msgid "Pages:"
 msgstr "Strony:"
 
-#: ../content-page.php:35 ../inc/catchresponsive-core.php:688
-#: ../inc/catchresponsive-core.php:707 ../inc/catchresponsive-core.php:833
+#: ../content-page.php:35 ../inc/catchresponsive-core.php:684
+#: ../inc/catchresponsive-core.php:703 ../inc/catchresponsive-core.php:829
 msgid "Edit"
 msgstr "Edycja"
 
@@ -235,97 +235,97 @@ msgctxt "Droid Sans font: on or off"
 msgid "on"
 msgstr "włączony"
 
-#: ../inc/catchresponsive-core.php:656
+#: ../inc/catchresponsive-core.php:652
 msgid "Post navigation"
 msgstr "Nawigacja wpisu"
 
-#: ../inc/catchresponsive-core.php:665
+#: ../inc/catchresponsive-core.php:661
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Starsze wpisy"
 
-#: ../inc/catchresponsive-core.php:666
+#: ../inc/catchresponsive-core.php:662
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nowsze wpisy <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../inc/catchresponsive-core.php:688
+#: ../inc/catchresponsive-core.php:684
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../inc/catchresponsive-core.php:698
+#: ../inc/catchresponsive-core.php:694
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">mówi:</span>"
 
-#: ../inc/catchresponsive-core.php:704
+#: ../inc/catchresponsive-core.php:700
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%1$s: %2$s"
 
-#: ../inc/catchresponsive-core.php:711
+#: ../inc/catchresponsive-core.php:707
 msgid "Your comment is awaiting moderation."
 msgstr "Twój komentarz oczekuje na moderację."
 
-#: ../inc/catchresponsive-core.php:814
+#: ../inc/catchresponsive-core.php:810
 msgid "<span class=\"screen-reader-text\">Posted on</span>"
 msgstr "<span class=\"screen-reader-text\">Opublikowano</span>"
 
-#: ../inc/catchresponsive-core.php:821
+#: ../inc/catchresponsive-core.php:817
 msgid "<span class=\"screen-reader-text\">Author</span>"
 msgstr "<span class=\"screen-reader-text\">Autor</span>"
 
-#: ../inc/catchresponsive-core.php:829
+#: ../inc/catchresponsive-core.php:825
 msgid "Leave a comment"
 msgstr "Dodaj komentarz"
 
-#: ../inc/catchresponsive-core.php:829
+#: ../inc/catchresponsive-core.php:825
 msgid "1 Comment"
 msgstr "1 komentarz"
 
-#: ../inc/catchresponsive-core.php:829
+#: ../inc/catchresponsive-core.php:825
 msgid "% Comments"
 msgstr "% komentarzy"
 
-#: ../inc/catchresponsive-core.php:850 ../inc/catchresponsive-core.php:858
+#: ../inc/catchresponsive-core.php:846 ../inc/catchresponsive-core.php:854
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: ../inc/catchresponsive-core.php:853
+#: ../inc/catchresponsive-core.php:849
 msgctxt "Used before category names."
 msgid "<span class=\"screen-reader-text\">Categories</span>"
 msgstr "<span class=\"screen-reader-text\">Kategorii</span>"
 
-#: ../inc/catchresponsive-core.php:861
+#: ../inc/catchresponsive-core.php:857
 msgctxt "Used before tag names."
 msgid "<span class=\"screen-reader-text\">Tags</span>"
 msgstr "<span class=\"screen-reader-text\">Tagów</span>"
 
-#: ../inc/catchresponsive-core.php:1470
+#: ../inc/catchresponsive-core.php:1466
 msgid "Scroll Up"
 msgstr "Przewiń do góry"
 
-#: ../inc/catchresponsive-core.php:1488
+#: ../inc/catchresponsive-core.php:1484
 msgid "Posted on"
 msgstr "Opublikowano"
 
-#: ../inc/catchresponsive-core.php:1489
+#: ../inc/catchresponsive-core.php:1485
 msgid "By"
 msgstr "Przez"
 
-#: ../inc/catchresponsive-core.php:1531
+#: ../inc/catchresponsive-core.php:1527
 msgid "Next &rarr;"
 msgstr "Następny &rarr;"
 
-#: ../inc/catchresponsive-core.php:1532
+#: ../inc/catchresponsive-core.php:1528
 msgid "Next post:"
 msgstr "Następny wpis:"
 
-#: ../inc/catchresponsive-core.php:1534
+#: ../inc/catchresponsive-core.php:1530
 msgid "&larr; Previous"
 msgstr "&larr; Poprzedni"
 
-#: ../inc/catchresponsive-core.php:1535
+#: ../inc/catchresponsive-core.php:1531
 msgid "Previous post:"
 msgstr "Poprzedni wpis:"
 

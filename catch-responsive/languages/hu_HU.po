@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Responsive\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-07-06 13:57+0545\n"
-"PO-Revision-Date: 2025-07-06 13:57+0545\n"
+"POT-Creation-Date: 2025-12-12 15:34+0545\n"
+"PO-Revision-Date: 2025-12-12 15:34+0545\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: hu_HU\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: "
 "__;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;_nx:1,2,4c;esc_html__;esc_attr_x:1,2c\n"
@@ -97,8 +97,8 @@ msgstr "Úgy tűnik, nem található a kért anyag. Talán a kereső segíthet."
 msgid "Pages:"
 msgstr "Oldalak:"
 
-#: ../content-page.php:35 ../inc/catchresponsive-core.php:688
-#: ../inc/catchresponsive-core.php:707 ../inc/catchresponsive-core.php:833
+#: ../content-page.php:35 ../inc/catchresponsive-core.php:684
+#: ../inc/catchresponsive-core.php:703 ../inc/catchresponsive-core.php:829
 msgid "Edit"
 msgstr "Szerkesztés"
 
@@ -231,97 +231,97 @@ msgctxt "Droid Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: ../inc/catchresponsive-core.php:656
+#: ../inc/catchresponsive-core.php:652
 msgid "Post navigation"
 msgstr "Bejegyzés navigáció"
 
-#: ../inc/catchresponsive-core.php:665
+#: ../inc/catchresponsive-core.php:661
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Régebbi cikkek"
 
-#: ../inc/catchresponsive-core.php:666
+#: ../inc/catchresponsive-core.php:662
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Újabb cikkek <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../inc/catchresponsive-core.php:688
+#: ../inc/catchresponsive-core.php:684
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../inc/catchresponsive-core.php:698
+#: ../inc/catchresponsive-core.php:694
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">szerint:</span>"
 
-#: ../inc/catchresponsive-core.php:704
+#: ../inc/catchresponsive-core.php:700
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%1$s a %2$s-ből"
 
-#: ../inc/catchresponsive-core.php:711
+#: ../inc/catchresponsive-core.php:707
 msgid "Your comment is awaiting moderation."
 msgstr "A hozzászólása moderálásra vár."
 
-#: ../inc/catchresponsive-core.php:814
+#: ../inc/catchresponsive-core.php:810
 msgid "<span class=\"screen-reader-text\">Posted on</span>"
 msgstr "<span class=\"screen-reader-text\">Közzétéve</span>"
 
-#: ../inc/catchresponsive-core.php:821
+#: ../inc/catchresponsive-core.php:817
 msgid "<span class=\"screen-reader-text\">Author</span>"
 msgstr "<span class=\"screen-reader-text\">Szerző</span>"
 
-#: ../inc/catchresponsive-core.php:829
+#: ../inc/catchresponsive-core.php:825
 msgid "Leave a comment"
 msgstr "Szóljon hozzá!"
 
-#: ../inc/catchresponsive-core.php:829
+#: ../inc/catchresponsive-core.php:825
 msgid "1 Comment"
 msgstr "1 hozzászólás"
 
-#: ../inc/catchresponsive-core.php:829
+#: ../inc/catchresponsive-core.php:825
 msgid "% Comments"
 msgstr "% hozzászólás"
 
-#: ../inc/catchresponsive-core.php:850 ../inc/catchresponsive-core.php:858
+#: ../inc/catchresponsive-core.php:846 ../inc/catchresponsive-core.php:854
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ","
 
-#: ../inc/catchresponsive-core.php:853
+#: ../inc/catchresponsive-core.php:849
 msgctxt "Used before category names."
 msgid "<span class=\"screen-reader-text\">Categories</span>"
 msgstr "<span class=\"screen-reader-text\">Kategóriák</span>"
 
-#: ../inc/catchresponsive-core.php:861
+#: ../inc/catchresponsive-core.php:857
 msgctxt "Used before tag names."
 msgid "<span class=\"screen-reader-text\">Tags</span>"
 msgstr "<span class=\"screen-reader-text\">Címkék</span>"
 
-#: ../inc/catchresponsive-core.php:1470
+#: ../inc/catchresponsive-core.php:1466
 msgid "Scroll Up"
 msgstr "Felfelé görgetés"
 
-#: ../inc/catchresponsive-core.php:1488
+#: ../inc/catchresponsive-core.php:1484
 msgid "Posted on"
 msgstr "Közzétéve"
 
-#: ../inc/catchresponsive-core.php:1489
+#: ../inc/catchresponsive-core.php:1485
 msgid "By"
 msgstr "Írta:"
 
-#: ../inc/catchresponsive-core.php:1531
+#: ../inc/catchresponsive-core.php:1527
 msgid "Next &rarr;"
 msgstr "Következő &rarr;"
 
-#: ../inc/catchresponsive-core.php:1532
+#: ../inc/catchresponsive-core.php:1528
 msgid "Next post:"
 msgstr "Következő bejegyzés"
 
-#: ../inc/catchresponsive-core.php:1534
+#: ../inc/catchresponsive-core.php:1530
 msgid "&larr; Previous"
 msgstr "&larr; Előző"
 
-#: ../inc/catchresponsive-core.php:1535
+#: ../inc/catchresponsive-core.php:1531
 msgid "Previous post:"
 msgstr "Előző bejegyzés"
 
